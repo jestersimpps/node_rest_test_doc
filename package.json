@@ -1,26 +1,36 @@
 {
-  "name": "node_rest_test_doc",
-  "version": "1.0.0",
-  "description": "a module to perform e2e test for express and create api documentation on the go",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jestersimpps/node_rest_test_doc.git"
-  },
-  "keywords": [
-    "node",
-    "api",
-    "testing",
-    "restful",
-    "documentation"
-  ],
-  "author": "jestersimpps ,jestersimpps@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jestersimpps/node_rest_test_doc/issues"
-  },
-  "homepage": "https://github.com/jestersimpps/node_rest_test_doc#readme"
+    "name": "node_rest_test_doc",
+    "version": "1.0.0",
+    "description": "a module to perform e2e test for express and create api documentation on the go",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jestersimpps/node_rest_test_doc.git"
+    },
+    "keywords": [
+        "node",
+        "api",
+        "testing",
+        "restful",
+        "documentation"
+    ],
+    "author": "jestersimpps <jestersimpps@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jestersimpps/node_rest_test_doc/issues"
+    },
+    "homepage": "https://github.com/jestersimpps/node_rest_test_doc#readme",
+    "dependencies": {
+        "partial-compare": "^1.0.1",
+        "type-of-is": "^3.4.0",
+        "apidoc-plugin-schema": "0.0.4",
+        "mocha": "~2.1.0",
+        "should": "~4.6.2",
+        "supertest": "^0.15.0",
+        "jsonfile": "^2.3.1",
+        "body-parser": "~1.8.1"
+    }
 }
