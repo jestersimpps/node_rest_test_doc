@@ -14,9 +14,6 @@ module.exports = (testData,options) => {
 	let _ids = [];
 	let itemCounter = 0;
 	let routeNameSingle = testData.routeName.slice(0, -1);
-	let slug = '';
-	let fileTypes = [];
-
 
 	describe(
 		`\n--------` +

@@ -1,13 +1,13 @@
 var e2e = require('../index');
-var exp = require('express');
+var app = require('express');
+
 'use strict';
 
 (() => {
 
 	var options = {
 		 timeout : 200,
-		 api : exp,
-		 endpointRoot : 'http://localhost:3000',
+		 api : app,
 	}
 
 
