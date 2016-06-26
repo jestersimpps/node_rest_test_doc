@@ -12,10 +12,6 @@ var exp = require('express');
 
 	var testData = {
 		routeName: 'Albums',
-		countTest: true,
-		searchTest: 'q',
-		displayTest: false,
-		uploads: ['avatar', 'megatron', 'advertisement', 'banner', 'logos', 'document', 'entriedocument'],
 		postObject: {
 			general: {
 				name: 'Ascot'
@@ -34,9 +30,6 @@ var exp = require('express');
 			},
 			type: "album"
 		},
-		expectedSlug: null,
-		secondPostObject: null,
-		expectedSecondSlug: null,
 		putObject: {
 			general: {
 				name: 'Ascot3'
