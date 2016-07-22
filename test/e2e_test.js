@@ -6,7 +6,6 @@
  * This file contains the code that will perform end to end tests based on testData objects defined in the ./test/routes folder.
  * it will perform simple 200 tests as well as comparative tests between the response bodies and
  * the expectedObjectAfterPost / expectedObjectAfterPut objects defined in the testData object.
- * It also contains logic for slug testing, display endpoints, and uploads.
  * A counter keeps track of the amount of documents being created or removed in/from the db.
  * Finally, theres a custom GET test for an endpoint that can be defined in the testData object
  */
