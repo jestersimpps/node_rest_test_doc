@@ -5,9 +5,15 @@ use the following comment blocks above the routes:
 
 do a replace all on:
 
-`<routecaps> : the routename in capitals`
-`<route>     : the routename as a title, lowercase`
-`<routesingle>: label of a single instance of <route> (horses => horse)`
+```
+<routecaps> : the routename in capitals
+```
+```
+<route>     : the routename as a title, lowercase
+```
+```
+<routesingle>: label of a single instance of <route> (horses => horse)
+```
 
 ## GET ALL
 ```
