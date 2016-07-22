@@ -21,8 +21,8 @@
  */
 
 
-// sg(schema, 'GET', `/${testData.routeName}`, `return an array of ${testData.routeName}`, testData, res.body);
-module.exports = (request_type, route, description, postObject, responseBody,schemaDir) => {
+// sg(schema, 'GET', `/${testData.routeName}`, `return an array of ${testData.routeName}`, testData, res.body,schemaDir);
+module.exports = (request_type, route, description, postObject, responseBody, schemaDir) => {
 
 	const Type = require('type-of-is');
 	const jsonfile = require('jsonfile');
