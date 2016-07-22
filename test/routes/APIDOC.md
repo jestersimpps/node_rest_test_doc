@@ -1,16 +1,15 @@
-# adding api doc
+# Adding api doc
 
 
 use the following comment blocks above the routes:
 
 do a replace all on:
 
-`<routecaps> : the routename in capitals
-<route>     : the routename as a title, lowercase
-<routesingle>: label of a single instance of <route> (horses => horse)
-`
+`<routecaps> : the routename in capitals`
+`<route>     : the routename as a title, lowercase`
+`<routesingle>: label of a single instance of <route> (horses => horse)`
 
-# GET ALL
+## GET ALL
 ```
 /**
  * @apiGroup <route>
@@ -23,7 +22,7 @@ do a replace all on:
  */
 ```
 
-# GET ONE
+## GET ONE
 ```
 /**
  * @apiGroup <route>
@@ -35,7 +34,7 @@ do a replace all on:
  */
 ```
 
-# POST
+## POST
 ```
 /**
  * @apiGroup <route>
@@ -47,7 +46,7 @@ do a replace all on:
  */
  ```
 
-# DELETE
+## DELETE
 ```
 /**
  * @apiGroup <route>
@@ -59,7 +58,7 @@ do a replace all on:
  */
 ```
 
-# PUT
+## PUT
 ```
 /**
  * @apiGroup <route>
