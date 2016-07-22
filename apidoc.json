@@ -1,0 +1,14 @@
+{
+    "name": "ahr-api",
+    "version": "1.0.0",
+    "description": "Documentation for ahr-api",
+    "title": "ahr-api",
+    "url": "",
+    "header": {
+        "title": "ahr api"
+    },
+    "template": {
+        "withCompare": true,
+        "withGenerator": true
+    }
+}

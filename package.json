@@ -2,7 +2,7 @@
   "name": "node_rest_test_doc",
   "version": "1.0.0",
   "description": "a module to perform e2e test for express and create api documentation on the go",
-  "main": "index.js",
+  "main": "test/e2e_test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
